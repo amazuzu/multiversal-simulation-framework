@@ -1,0 +1,64 @@
+# Universe instance shape. Must satisfy R01 (consistency).
+#
+# references.* — minimal overlap: list only IDs this instance uses.
+# See header comments in examples/earth-session.yaml and IDS.md § Conditional gates.
+#
+# Quick gates: FS01⇔session.entanglement; FS03⇔physics.deferred_rendering;
+# AS02⇔session.memory; AS03⇔physics.scarcity; R06⇔multiverse.overlaps;
+# Q01+R07⇔evaluation; R08+M01⇔sim/base parity; R09 optional rejuvenation story.
+# No references.laws — former L06–L08 merged into rules.
+
+universe:
+  id: string
+  version: 1
+  consistent: true
+
+  structure:
+    description: string
+    symbols: []
+
+  constants:
+    Phi_critical: null
+    T_max: null
+    Theta_threshold: null
+    S_entropy_rate_min: null
+
+  consciousness:
+    self_reference: true
+    integrated_information_estimate: null
+
+  session:
+    enabled: false
+    t_birth: null
+    t_death: null
+    memory:
+      M_total: []
+      M_primary_suppressed: []
+    entanglement:
+      enabled: false
+      base_entity_id: null
+      avatar_id: null
+
+  physics:
+    deferred_rendering: false
+    observer_entity_id: null
+    scarcity:
+      enabled: false
+      resource_budget: null
+      vulnerability: null
+
+  multiverse:
+    overlaps: []
+
+  evaluation:
+    ethical_choice_weights: null
+    outcome: null
+
+  references:
+    axioms: [A01, A02, A03, A04]
+    questions: []
+    rules: [R01, R02, R03, R04]
+    measures: []
+    features:
+      simulation: []
+    assumptions: []
