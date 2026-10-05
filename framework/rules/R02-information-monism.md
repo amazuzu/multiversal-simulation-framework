@@ -1,16 +1,11 @@
-# R02 — Information monism
+# R02 — No second substance
 
-## Q&A
+**Question:** Do I need spirit-matter in the model?
 
-**Question:** Do I need a separate “spirit stuff” in my world model?
+**Answer:** No. Minds and bodies are information. From [A02](../axioms/A02-mathematical-monism.md). Don’t add a magical extra because brains feel mysterious.
 
-**Answer:** No—describe minds and bodies as information. Don’t add a second magical substance.
+## Advanced
 
-**Sources:** A02
+$$\text{Matter} \cup \text{Spirit} \subseteq \text{Information}(\mathcal{M})$$
 
-All state variables, fields, and entities are informational degrees of freedom in the multiverse.
-
-**Checks**
-
-- Do not introduce non-informational primitives (immaterial soul-stuff, unmodeled hardware gods).
-- Matter and mind are both informational patterns.
+**Read it as:** whatever you call body or soul has to be describable as pattern. $\cup$ means “both.” $\subseteq$ means “fits inside.” There is no leftover ghost-substance outside $\mathcal{M}$.

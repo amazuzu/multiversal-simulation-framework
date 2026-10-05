@@ -1,26 +1,19 @@
-# M01 — Ontological parity
+# M01 — Don’t rank worlds
 
-**Status:** *Measure* (former **R09** rule id for parity—now **R08** holds the equality). Audit when **comparing** base vs simulated structures.
+**Question:** Can I call one universe “more real” than another?
 
-## Q&A
+**Answer:** Not in these notes. “Sim” and “base” are addresses. Use this page when you’re writing a story or a score and you catch yourself treating one cosmos as the cheap copy.
 
-**Question:** Can I rank universes as “more real” than others?
+| Slip | Who catches it |
+|------|----------------|
+| “Feelings in the sim don’t count” | [A04](../axioms/A04-inherent-reality.md) |
+| “The outer world matters more” | [R08](../rules/R08-equivalence-of-realities.md) |
+| Using “sim” as an insult | this page |
 
-**Answer:** Not in this framework. Base and simulated worlds have equal standing; what matters is conscious life inside.
+## Advanced
 
-**Sources:** [R08](../rules/R08-equivalence-of-realities.md), [A04](../axioms/A04-inherent-reality.md)
+$$\text{Value}(S_{\text{base}}) = \text{Value}(S_{\text{sim}})$$
 
-Formal equality: [FORMULAS.md § R08](../FORMULAS.md#r08--ontological-parity)
+**Read it as:** when you compare two worlds, their values match. If your story gives one a lower score because it is “only a sim,” the checklist fails. Feelings *inside* one world are [A04](../axioms/A04-inherent-reality.md). This line is about ranking whole worlds.
 
-## How this differs from A04
-
-| Mistake | Caught by |
-|---------|-----------|
-| “Feelings in the sim don’t count” | **A04** |
-| “Base Earth matters more than the session” | **R08** + **M01** |
-| “Sim” used as insult, not index | **M01** |
-
-## Checks
-
-- No ranking in lore, ethics, or scoring unless explicitly outside this framework.
-- “Sim” / “base” are indexical, not value judgments.
+[FORMULAS.md](../FORMULAS.md#r08--ontological-parity)

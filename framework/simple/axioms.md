@@ -1,6 +1,6 @@
 # Axioms (simple)
 
-**Axioms** are the starting points: if you use this framework, you agree these ideas fit together. They are not optional toggles in YAML—you adopt the set A01–A04 when you use the framework at all.
+**Axioms** are the starting points: if you use this framework, you agree these ideas fit together. They are not optional toggles—you adopt the set A01–A04 when you use the framework at all.
 
 | ID | In plain English | More |
 |----|------------------|------|

@@ -1,30 +1,19 @@
-# FS03 — Deferred rendering / observer-linked detail (simulation feature)
+# FS03 — The world loads when you look
 
-## Q&A
+**Question:** Is the whole universe drawn in full detail when nobody is watching?
 
-**Question:** Does the whole universe run in full detail when nobody is looking?
+**Answer:** Only in this optional story: empty places stay **fuzzy** until someone interacts—like a game that renders the room you’re in.
 
-**Answer:** **Only if you enable FS03:** unobserved regions stay vague until a candidate observer interacts—like a game that only draws what you see.
+**Picture:** Old maps drew the coast and left the interior blank until someone walked it. Not proven for Earth. Just a way to talk about limited resources.
 
-**Status:** *Simulation feature.* Former **L04** / **U01**; builder checks absorbed from retired **R05**. See [IDS.md § ID migration](../../IDS.md#id-migration-retired-numbers).
+[Influences](../../INFLUENCES.md#fs03--deferred-rendering--observer-collapse)
 
-Unobserved environment stays in superposition (many possibilities); interaction picks one outcome (Born-rule style metaphor).
+## Advanced
 
-**Equations:** [FORMULAS.md § FS03](../../FORMULAS.md#fs03--deferred-rendering-superposition-until-observation)
+$$|\psi\rangle = c_1 |x_1\rangle + c_2 |x_2\rangle + \cdots \quad \text{(nobody looking)}$$
 
-## If you enable FS03
+When someone looks, one picture $x_k$ remains, with chance $|c_k|^2$.
 
-- Detail tracks observer coupling, not global clock alone.
-- `references.features.simulation` + `physics.deferred_rendering: true` + `physics.observer_entity_id`.
+**Read it as:** before observation, the place is a stack of possible layouts. The numbers $c_k$ say how much each layout weighs. $|c_k|^2$ is the chance you “land” on layout $k$ (the same rule quantum textbooks use). Here it’s a metaphor for lazy detail, not a claim about lab quantum mechanics.
 
-**Builder checks:** don’t precompute irrelevant regions at full fidelity; collapse detail on interaction.
-
-## If you do not enable FS03
-
-Omit from `references.features.simulation`; leave `physics.deferred_rendering` false.
-
-## Influences
-
-**Tags:** Wheeler · Rovelli · QBism · Zurek · digital-physics metaphor  
-
-Prior-art map: [INFLUENCES.md § FS03](../../INFLUENCES.md#fs03--deferred-rendering--observer-collapse)
+[FORMULAS.md](../../FORMULAS.md#fs03--deferred-rendering-superposition-until-observation)

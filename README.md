@@ -20,7 +20,7 @@ Themes overlap with well-known work (e.g. mathematical universe, simulation hypo
 
 ## Framework
 
-See **[framework/](framework/README.md)** for axioms, rules, YAML schema, and an example universe instance. **New readers:** start with **[framework/simple/](framework/simple/README.md)**. Element IDs are zero-padded (`A01`, `Q01`, `R07`, `AS02`) — see **[framework/IDS.md](framework/IDS.md)**.
+See **[framework/](framework/README.md)** for axioms, rules, and optional features. **New readers:** start with **[framework/simple/](framework/simple/README.md)**. Element IDs are zero-padded (`A01`, `Q01`, `R07`, `AS01`) — see **[framework/IDS.md](framework/IDS.md)**.
 
 ## License
 

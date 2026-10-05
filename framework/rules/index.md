@@ -12,5 +12,9 @@ Constraints for defining or running a universe under this framework (merged form
 | R07 | [R07-evaluation-outcome.md](R07-evaluation-outcome.md) | Lifetime evaluation (Q01) |
 | R08 | [R08-equivalence-of-realities.md](R08-equivalence-of-realities.md) | Base ≡ sim value (former L07) |
 | R09 | [R09-soul-resuscitation.md](R09-soul-resuscitation.md) | Optional rejuvenation story (former L06) |
+| R10 | [R10-dual-time.md](R10-dual-time.md) | Block ontology vs lived finite time |
+| R11 | [R11-constrained-infinity.md](R11-constrained-infinity.md) | Multiverse tiers (prime-style subset) |
+| R12 | [R12-universe-prime.md](R12-universe-prime.md) | Gödel encoding / universe prime (metaphor) |
+| R13 | [R13-cosmological-boundaries.md](R13-cosmological-boundaries.md) | $t=0$, horizon, holographic $I_{\max}$ |
 
 **Retired:** **R05** (deferred rendering → **FS03**). Do not list R05.

@@ -1,29 +1,26 @@
-# A01 — Non-contradiction (plenitude)
+# A01 — Rules that don’t fight
 
-## Q&A
+**Question:** What has to be true for a universe to exist?
 
-**Question:** What has to be true for a **universe** to exist—and for its **physics to “work”**?
+**Answer:** Its rules have to fit together. No “gravity pulls and pushes at once.” Here, a consistent world **is** a real world—you don’t need a secret machine underneath.
 
-**Answer:** Its laws and logic must **fit together**: no contradictions inside the spec. That is what “physics works” means here—not that every universe matches our Earth equations, but that the world’s own rules don’t break themselves. You don’t need special hardware—**consistency is enough** for that universe to count as real.
+**Picture:** A board game with two rulebooks that cancel each other isn’t a game. It’s a pile of cards.
 
-## Universe and physics (plain language)
+[Who thought this first](../INFLUENCES.md#a01--non-contradiction--plenitude)
 
-- A **universe-candidate** is state space + dynamics + laws you write down.
-- **Physics works** means those laws are internally coherent—you cannot derive a contradiction from them.
-- **Does not mean:** we know which world is ours, or that every consistent world is easy to simulate.
+## Advanced
 
-Physical hardware, matter, and space are non-fundamental. Logical possibility is identical to existence for structures in this framework.
+$$\text{Exists}(S) \iff \text{Consistent}(S) \iff (S \nvdash \bot)$$
 
-**Equations:** [FORMULAS.md § A01](../FORMULAS.md#a01--existence-iff-consistency)
+**Read it as:** a candidate world $S$ is real exactly when its rules never prove nonsense.
 
-## Implications
+| Symbol | Means |
+|--------|--------|
+| $S$ | One possible universe: its laws and what can happen in it. |
+| $\text{Exists}(S)$ | “This world is actually there.” |
+| $\iff$ | “If and only if” — both sides stand or fall together. |
+| $\text{Consistent}(S)$ | The rules don’t contradict each other. |
+| $\bot$ | Absurdity: a statement and its opposite both true. |
+| $S \nvdash \bot$ | You cannot *derive* absurdity from $S$. |
 
-- No separate “permission” from matter is required for existence—only consistency.
-- A universe whose laws contradict each other **does not exist** here.
-- The multiverse is the set of all consistent structures, not a single privileged embedding.
-
-## Influences
-
-**Tags:** Aristotle · Leibniz · Lewis · Gödel · Tegmark  
-
-Prior-art map: [INFLUENCES.md § A01](../INFLUENCES.md#a01--non-contradiction--plenitude)
+Same formula, collected: [FORMULAS.md](../FORMULAS.md#a01--existence-iff-consistency).

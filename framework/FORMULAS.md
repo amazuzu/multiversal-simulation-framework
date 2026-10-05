@@ -1,10 +1,8 @@
 # Formula guide
 
-**All display math lives here.** Element pages (`axioms/`, `rules/`, `features/`, `assumptions/`, `questions/`) are prose + checks only.
+Student-level formulas and symbol lists live in the **Advanced** section of each idea page. This file keeps the same math in one place, with a bit more detail.
 
-Symbols: [notation.md](notation.md). Constants: [universe.schema.yaml](universe.schema.yaml).
-
-**Convention:** Mix of rigorous logic/QM notation and metaphor (cognitive entropy, ethical score).
+Symbols: [notation.md](notation.md). Some lines are metaphors (a “life score,” numbness called entropy). None of it is a lab result.
 
 ---
 
@@ -91,6 +89,18 @@ $$\Phi(S) = \mathbf{I}\big(S ; \mathbf{M}(S)\big) > \Phi_{critical}$$
 | $\Phi_{critical}$ | **Constant (you choose):** minimum $\Phi$ to count as a moral/experiential subject in a given implementation. |
 
 **In words:** The loop must be **informationally tight** enough—not a trivial mirror. Implementations must define how $\mathbf{I}$ is computed.
+
+**Formula 3 (continuous alternative, optional)**
+
+$$\frac{d\Psi}{dt} = \mathbf{H}\left(\Psi(t), \frac{\delta \mathbf{M}}{\delta \Psi}\right)$$
+
+| Piece | Role |
+|--------|------|
+| $\Psi(t)$ | State field of the conscious subsystem. |
+| $\mathbf{M}$ | Self-model functional of $\Psi$. |
+| $\mathbf{H}$ | Generator tying evolution to self-model sensitivity (symbolic—not a unique physical Hamiltonian). |
+
+**In words:** Same **self-referential** requirement as the discrete loop; use discrete or continuous formalism per implementation.
 
 ---
 
@@ -188,15 +198,17 @@ $$\dim(\mathcal{H}_{\text{host}}) = 2^N \quad \text{(ideal } N \text{ qubits)}$$
 
 Guest update is some map on a subspace of the host Hilbert space (unitary or noisy channel—you specify). See [FS02](features/simulation/FS02-quantum-computer-host.md).
 
+**Hardware fallacy (conceptual):** $\text{Exists}(S)$ does not require $\exists$ physical server; FS02 is optional narrative. Folklore scale: $N \sim 300\text{--}1000$ for rough capacity rhetoric in synthesis notes—not validated here.
+
 ---
 
 ## Assumptions (formulas)
 
-### AS02 — Active memory without primary knowledge
+### AS01 — Active memory without primary knowledge
 
-**Scope:** Only when [AS02](assumptions/AS02-session-amnesia.md) is enabled. Former law **L02** retired—same content. **Not** a universal claim about Earth or every universe.
+**Scope:** Only when [AS01](assumptions/AS01-session-amnesia.md) is enabled. Former law **L02** retired—same content. **Not** a universal claim about Earth or every universe.
 
-**Phenomenology AS02 can explain (when on):** people **do not remember previous lives** because $\mathcal{M}_{\text{prior-lives}} \subset \mathcal{M}_{Primary}$ is excluded from $\mathcal{M}_{Active}$ for each session $[t_{birth}, t_{death}]$.
+**Phenomenology AS01 can explain (when on):** people **do not remember previous lives** because $\mathcal{M}_{\text{prior-lives}} \subset \mathcal{M}_{Primary}$ is excluded from $\mathcal{M}_{Active}$ for each session $[t_{birth}, t_{death}]$.
 
 **Primary partition (conceptual)**
 
@@ -234,11 +246,20 @@ $$\mathbb{P}(\text{Action} \mid \mathcal{M}_{Active}) \perp \mathcal{M}_{Primary
 
 **In words:** Choices this life must be **unbiased** by origin, meta-knowledge, and **memory of prior lives**.
 
+**Memory as geometry (optional, with [R10](#r10--block-vs-experienced-time))**
+
+$$K(t_1, t_2) \;\text{on block spacetime}\; (x,y,z,t)$$
+
+| Piece | Role |
+|--------|------|
+| $K(t_1,t_2)$ | Correlation linking states at $t_1$ and $t_2$ in a **fixed** mathematical history. |
+| Block | “Storage” as **static structure**, not a separate mechanical computer. |
+
 ---
 
-### AS03 — Scarcity and choice value
+### AS02 — Scarcity and choice value
 
-**Scope:** Only when [AS03](assumptions/AS03-artificial-scarcity.md) is enabled. Former law **L03** retired—same content. Otherwise the formulas may still **describe** finite life or entropy without teleology.
+**Scope:** Only when [AS02](assumptions/AS02-artificial-scarcity.md) is enabled. Former law **L03** retired—same content. Otherwise the formulas may still **describe** finite life or entropy without teleology.
 
 **Formula 1**
 
@@ -249,7 +270,7 @@ $$\frac{d S_{entropy}}{d t} > 0, \quad \Delta t_{lifespan} \le T_{max}$$
 | $S_{entropy}$ | Entropy of the environment / body / society (thermodynamic or metaphorical). |
 | $\frac{d}{dt} > 0$ | Entropy **increases over time** (second-law flavor). |
 | $\Delta t_{lifespan}$ | Length of life in the session. |
-| $T_{max}$ | **Constant:** hard cap on lifespan (e.g. ~80 years in [earth-session.yaml](examples/earth-session.yaml)). |
+| $T_{max}$ | **Constant:** hard cap on lifespan (e.g. ~80 years in a human-session story). |
 
 **Formula 2**
 
@@ -337,6 +358,89 @@ $$\text{SubjectiveTruth}(n \in S_i) = \text{Invariant}(\mathcal{C}_n)$$
 
 ---
 
+### R10 — Block vs experienced time
+
+**Formula 1 (block / outside view)**
+
+$$\mathcal{U}_{block} = \{(x,y,z,t,\sigma) \mid \text{Consistent}(\sigma)\}$$
+
+**Formula 2 (experienced / inside view)**
+
+$$\tau_{experienced} = \int \mathbf{1}_{\mathcal{C}(S)>0} \, dt \quad \text{with stakes on } [t_{birth}, t_{death}]$$
+
+| Piece | Role |
+|--------|------|
+| $\mathcal{U}_{block}$ | Static 4D+ history of a structure (eternalist picture). |
+| $\tau_{experienced}$ | Subjective duration along conscious worldline. |
+| $[t_{birth}, t_{death}]$ | Session window when **AS01** / **AS02** apply. |
+
+**Formula 3 (geodesic lifespan sketch)**
+
+$$\Delta T = \int_{\mathcal{C}} \sqrt{-g_{\mu\nu} \, dx^\mu dx^\nu}$$
+
+| Piece | Role |
+|--------|------|
+| $\mathcal{C}$ | Worldline of an embodied observer. |
+| $(M,g)$ | Spacetime manifold (Riemannian/Lorentzian as you specify). |
+| $\Delta T$ | Proper-time / subjective duration along $\mathcal{C}$ (can be **static** data in block picture). |
+
+**In words:** Ontology can be **timeless** while agents still **live forward** with finite moral stakes. See [R10](rules/R10-dual-time.md).
+
+---
+
+### R11 — Multiverse tiers
+
+$$\mathcal{P}(U) \subset \mathcal{M}, \quad |\mathcal{P}(U)| \text{ may be } \aleph_0 \text{ while } \mathcal{M} \text{ is larger}$$
+
+| Tier | Symbol | Idea |
+|------|--------|------|
+| 1 | Bounded | Finite or strictly capped $U$. |
+| 2 | Constrained infinite | Infinite extension, **sparse** allowed patterns (prime analogy). |
+| 3 | Plenitude | All $\text{Consistent}(S_i)$ in $\mathcal{M}$. |
+
+**In words:** Infinity in size $\neq$ every pattern realized. See [R11](rules/R11-constrained-infinity.md).
+
+---
+
+### R12 — Gödel encoding and universe prime
+
+**Formula 1 (Gödel-style product)**
+
+$$G = \prod_{i=1}^{k} p_i^{s_i} = 2^{s_1} \cdot 3^{s_2} \cdot 5^{s_3} \cdots$$
+
+| Piece | Role |
+|--------|------|
+| $[s_1,\ldots,s_k]$ | Finite encoding of a universe specification (symbols you define). |
+| $p_i$ | $i$-th prime; exponents encode symbols. |
+| $G$ | Gödel integer for the spec (lossless only if encoding is fixed). |
+
+**Formula 2 (prime label — narrative)**
+
+$$\text{Spec} \Rightarrow G \Rightarrow P \in \mathbb{P} \quad \text{(story only; not a physical theorem here)}$$
+
+**In words:** Optional metaphor: one consistent cosmos ↔ one frozen arithmetic object. See [R12](rules/R12-universe-prime.md).
+
+---
+
+### R13 — Cosmological boundaries
+
+**Formula 1 (entropy horizon sketch)**
+
+$$\lim_{t \to \infty} \frac{dS}{dt} = 0 \quad \text{on conformal boundary } \mathscr{I}^+$$
+
+**Formula 2 (information cap folklore)**
+
+$$I_{\max} \sim 10^{122} \,\text{bits} \quad \text{(holographic order-of-magnitude; not calibrated here)}$$
+
+| Piece | Role |
+|--------|------|
+| $t=0$ | Coordinate **boundary** (singularity), not required “before time” event. |
+| $I_{\max}$ | Upper bound on state capacity for tier-1 / visible-cosmos stories. |
+
+**In words:** Edges of the model, not mandatory cosmology for Earth. See [R13](rules/R13-cosmological-boundaries.md).
+
+---
+
 ## Questions (open)
 
 ### Q01 — Ethical integral and threshold
@@ -363,15 +467,42 @@ $$\text{Outcome} = \begin{cases} \text{Passed}, & \text{Evaluate} \ge \Theta_{th
 
 ---
 
+### Q02 — Branching and irreducibility
+
+*Not a law—see [questions/Q02-free-choice.md](questions/Q02-free-choice.md).*
+
+**Formula 1 (branching manifold)**
+
+$$|\Psi_{choice}\rangle = \sum_i c_i |\text{branch}_i\rangle$$
+
+**Formula 2 (irreducibility sketch)**
+
+$$\nexists \, \pi : \text{History}_{<t} \to \text{Choice}_t \quad \text{with } |\pi| \ll |\text{Run internal loop to } t|$$
+
+| Piece | Role |
+|--------|------|
+| $|\text{branch}_i\rangle$ | Decision-theoretic or QM-style alternatives. |
+| $\pi$ | Shortcut predictor (Wolfram-style **irreducibility**: must run the process). |
+
+**Formula 3 (top-down selection — fiction)**
+
+$$\Phi(S) \;\leadsto\; \text{weight on } |\psi_i\rangle \quad \text{in } \sum_i c_i |\psi_i\rangle$$
+
+**In words:** Explore whether choice is **navigation** among branches vs **illusion** of novelty. Framework does not adjudicate.
+
+---
+
 ## Constants checklist (per universe)
 
 | Constant | Used in | Typical role |
 |----------|---------|----------------|
 | $\Phi_{critical}$ | A03 | Minimum integrated information for “subject” |
-| $T_{max}$ | AS03 | Lifespan cap |
+| $T_{max}$ | AS02 | Lifespan cap |
 | $\Theta_{threshold}$ | Q01 | Pass/fail on evaluation (if modeled) |
 | $\alpha$ | R06 | Overlap law mix (can vary with $x,t$) |
-| $t_{birth}, t_{death}$ | AS02, Q01 | Session window |
+| $t_{birth}, t_{death}$ | AS01, Q01 | Session window |
 | $w(t)$ | Q01 | Ethical weighting function |
+| Multiverse tier | R11 | 1 / 2 / 3 documentation label in your spec |
+| $I_{\max}$ | R13 | Optional holographic capacity (order-of-magnitude only) |
 
-Set these in YAML: [universe.schema.yaml](universe.schema.yaml).
+Define constants in prose when you build a universe instance.

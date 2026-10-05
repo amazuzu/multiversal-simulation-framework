@@ -1,18 +1,15 @@
-# R03 — Consciousness threshold
+# R03 — When “it” becomes someone
 
-## Q&A
+**Question:** When do I treat a system as a person, not a gadget?
 
-**Question:** When should I treat something as a real “someone” and not just a machine?
+**Answer:** When it models itself tightly enough—above a line **you** choose—not because it chats well. From [A03](../axioms/A03-self-reference-consciousness.md). Below that line, it can still exist; it just isn’t a candidate for a “life score” ([Q01](../questions/Q01-existential-purpose.md)).
 
-**Answer:** When it models itself in a tight feedback loop and passes your chosen awareness threshold—not just when it talks clever.
+[Symbols](../notation.md)
 
-**Sources:** A03
+## Advanced
 
-Treat as a moral/experiential **subject** only with self-referential dynamics and integration above your configured threshold (see YAML `Phi_critical`).
+$$\Phi(S) > \Phi_{\text{critical}}$$
 
-**Checks**
+**Read it as:** $\Phi$ measures how tightly a system and its self-model lock together. You choose the cutoff $\Phi_{\text{critical}}$. Above it, treat the system as someone. Below it, don’t—no matter how fluent the chat is.
 
-- Self-model present and used in dynamics.
-- Estimate integration against `Phi_critical`.
-
-Non-subjects may exist but are not evaluation candidates under AS02/Q01 unless structure changes.
+Details: [A03](../axioms/A03-self-reference-consciousness.md).

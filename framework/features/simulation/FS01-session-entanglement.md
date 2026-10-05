@@ -1,27 +1,17 @@
-# FS01 — Session entanglement / quantum projection (simulation feature)
+# FS01 — Two yous, one link
 
-## Q&A
+**Question:** If I’m inside a sim, how am I still *me* out there—without uploading a brain file?
 
-**Question:** If this universe is a sim inside another, how can “me” here stay tied to “me” outside without a brain upload?
+**Answer:** One optional picture: the inner life and the outer life stay **entangled**. Change one, the other feels it. Not a copy-paste clone.
 
-**Answer:** One optional **feature** is quantum entanglement—inner avatar and outer entity stay correlated, not copy-and-upload. Enable only when your nested-universe model needs it.
+Skip this if your story doesn’t need a nested world. Amnesia is a different idea ([AS01](../../assumptions/AS01-session-amnesia.md)).
 
-**Status:** *Simulation feature.* Former **AS01** / **L01**. See [IDS.md § ID migration](../../IDS.md#id-migration-retired-numbers).
+[Influences](../../INFLUENCES.md#fs01--session-entanglement--quantum-projection)
 
-**Equations:** [FORMULAS.md § FS01](../../FORMULAS.md#fs01--entangled-base-and-avatar)
+## Advanced
 
-## If you enable FS01
+$$|\Psi\rangle = \frac{1}{\sqrt{2}}\big(|\text{outer}\rangle \otimes |\text{inner}\rangle\big)$$
 
-Link base entity and avatar by **correlation**, not a full mind file copy.
+**Read it as:** one joint state, not two separate files. $\otimes$ means “both systems at once.” $1/\sqrt{2}$ is the usual equal-weight example (not the only one). When the inner life changes, the outer side stays correlated—that’s the entanglement, not a brain upload.
 
-**Checks:** sim and base evolution stay coupled; avoid “clone identity” as the main link; `references.features.simulation` + `session.entanglement.enabled: true`.
-
-## If you do not enable FS01
-
-Other identity bridges allowed (undefined here). You may still use AS02, AS03, FS03, Q01 without FS01.
-
-## Influences
-
-**Tags:** Einstein · Podolsky · Rosen · Bell  
-
-Prior-art map: [INFLUENCES.md § FS01](../../INFLUENCES.md#fs01--session-entanglement--quantum-projection)
+[FORMULAS.md](../../FORMULAS.md#fs01--entangled-base-and-avatar)

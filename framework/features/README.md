@@ -1,9 +1,9 @@
 # Features
 
-**Features** are optional capabilities of a **universe as a whole**—not one-off guesses (assumptions) or open questions.
+Optional mechanics for “a world inside a world.” Skip any you don’t need.
 
-| Path | What it covers |
-|------|----------------|
-| [simulation/](simulation/README.md) | A universe **embedded** in or run by another (`FS01`–`FS03` — entanglement, host, deferred rendering) |
-
-See [IDS.md](../IDS.md) for YAML shape.
+| ID | Page |
+|----|------|
+| [FS01](simulation/FS01-session-entanglement.md) | Inner you and outer you stay linked. |
+| [FS02](simulation/FS02-quantum-computer-host.md) | Maybe a quantum computer upstairs. |
+| [FS03](simulation/FS03-deferred-rendering.md) | The world stays fuzzy until someone looks. |

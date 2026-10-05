@@ -1,30 +1,17 @@
-# R08 — Equivalence of realities
+# R08 — A sim life isn’t cheaper
 
-## Q&A
+**Question:** Is a life inside a simulation worth less than a “real” one?
 
-**Question:** Is a simulated life worth less than a “base” life?
+**Answer:** No. Both are patterns. The word “sim” is a location, not an insult.
 
-**Answer:** In this framework, no. Both are real patterns in the same mathematical world; the label “sim” doesn’t make your experience second-class.
+[A04](../axioms/A04-inherent-reality.md) is about **your** feelings inside one world. This rule is about **whole worlds** compared to each other. [M01](../measures/M01-ontological-parity.md) is the audit so stories don’t rank them anyway.
 
-**Sources:** A04
+[Influences](../INFLUENCES.md#r08--equivalence-of-realities)
 
-**Former law:** **L07**. **Equations:** [FORMULAS.md § R08](../FORMULAS.md#r08--ontological-parity)
+## Advanced
 
-## Reading
+$$\text{Value}(S_{\text{base}}) = \text{Value}(S_{\text{sim}})$$
 
-- No ontological ranking between base and sim universes.
-- What matters for a person is conscious structure, not the base/sim label.
+**Read it as:** the two structures get the same ontological score. What is true *for a person* depends on their conscious structure, not on whether their world is labeled base or sim.
 
-## A04 vs R08 vs M01
-
-- **[A04](../axioms/A04-inherent-reality.md)** — inside one world: experience fully real.
-- **R08** — across worlds: equal ontological value.
-- **[M01](../measures/M01-ontological-parity.md)** — audit when comparing worlds or scoring.
-
-## Influences
-
-**Tags:** Bostrom · Chalmers · Deutsch  
-
-Parity check: [M01](../measures/M01-ontological-parity.md).
-
-Prior-art map: [INFLUENCES.md § R08](../INFLUENCES.md#r08--equivalence-of-realities)
+[FORMULAS.md](../FORMULAS.md#r08--ontological-parity)

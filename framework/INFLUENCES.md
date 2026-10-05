@@ -118,7 +118,7 @@ Former **L04** / **U01** — same concept.
 
 ## Assumptions
 
-### AS02 — Session amnesia / unbiased testing
+### AS01 — Session amnesia / unbiased testing
 
 | Name | Relevance |
 |------|-----------|
@@ -129,11 +129,11 @@ Former **L04** / **U01** — same concept.
 
 Former **L02** — same concept.
 
-**See also:** [assumptions/AS02-session-amnesia.md](assumptions/AS02-session-amnesia.md)
+**See also:** [assumptions/AS01-session-amnesia.md](assumptions/AS01-session-amnesia.md)
 
 ---
 
-### AS03 — Artificial scarcity / meaning through constraint
+### AS02 — Artificial scarcity / meaning through constraint
 
 | Name | Relevance |
 |------|-----------|
@@ -144,7 +144,7 @@ Former **L02** — same concept.
 
 Former **L03** — same concept.
 
-**See also:** [assumptions/AS03-artificial-scarcity.md](assumptions/AS03-artificial-scarcity.md)
+**See also:** [assumptions/AS02-artificial-scarcity.md](assumptions/AS02-artificial-scarcity.md)
 
 ---
 
@@ -188,6 +188,65 @@ Former **L06**. **See also:** [rules/R09-soul-resuscitation.md](rules/R09-soul-r
 
 ---
 
+### Q02 — Free choice and unpredictability
+
+| Name | Relevance |
+|------|-----------|
+| **Stephen Wolfram** | Algorithmic irreducibility — computation that cannot be shortcut. |
+| **Daniel Dennett / compatibilists** | Choice as real at the level of agents even if physics is deterministic (debate). |
+| **Everett / branching QM** | Many branches as formal backdrop for “decision manifolds.” |
+
+**See also:** [questions/Q02-free-choice.md](questions/Q02-free-choice.md)
+
+---
+
+### R10 — Block time and experienced time
+
+| Name | Relevance |
+|------|-----------|
+| **Eternalism** | Past and future equally real in a 4D block. |
+| **Carlo Rovelli** | Relational / perspective-dependent time (distant **theme**). |
+| **McTaggart** | A-series (experienced flow) vs B-series (ordered dates). |
+
+**See also:** [rules/R10-dual-time.md](rules/R10-dual-time.md)
+
+---
+
+### R12 — Gödel encoding and universe prime
+
+| Name | Relevance |
+|------|-----------|
+| **Kurt Gödel** | Arithmetization of syntax; encoding of formal systems as numbers. |
+| **Leopold Dirichlet** | Primes in arithmetic progressions (cited in synthesis notes—**theme only**, not a claim about physics). |
+| **Max Tegmark** | Mathematical structure as reality (neighbor to static $P$ metaphor). |
+
+**See also:** [rules/R12-universe-prime.md](rules/R12-universe-prime.md)
+
+---
+
+### R13 — Cosmological boundaries
+
+| Name | Relevance |
+|------|-----------|
+| **Roger Penrose** | Conformal infinity $\mathscr{I}^+$, boundary geometry. |
+| **Bekenstein / 't Hooft / Susskind** | Holographic bounds on information in a region. |
+| **Cosmology textbooks** | Big Bang as initial boundary condition (model-dependent). |
+
+**See also:** [rules/R13-cosmological-boundaries.md](rules/R13-cosmological-boundaries.md)
+
+---
+
+### R11 — Constrained infinity
+
+| Name | Relevance |
+|------|-----------|
+| **Max Tegmark** | Level IV multiverse vs internal structure of a single $S_i$. |
+| **Set theory / number theory** | Infinite sets with sparse subsets (prime analogy). |
+
+**See also:** [rules/R11-constrained-infinity.md](rules/R11-constrained-infinity.md)
+
+---
+
 ### R08 — Equivalence of realities
 
 | Name | Relevance |
@@ -209,6 +268,7 @@ Informal reading list—not a bibliography for footnotes. Use it to explore **re
 - Bostrom, N. — “Are You Living in a Computer Simulation?” (2003)  
 - Chalmers, D. — “The Matrix as Metaphysics” (2003)  
 - Hofstadter, D. — *I Am a Strange Loop* (2007)  
+- Wolfram, S. — *A New Kind of Science* (2002) — irreducibility (theme for Q02)  
 - Tononi, G. et al. — Integrated Information Theory (2004–; see review literature)  
 - Lewis, D. — *On the Plurality of Worlds* (1986)  
 - Rawls, J. — *A Theory of Justice* (1971) — veil of ignorance  

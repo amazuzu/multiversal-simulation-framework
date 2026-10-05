@@ -1,27 +1,17 @@
-# R09 — Soul resuscitation (optional narrative)
+# R09 — Why an immortal might choose to die once
 
-## Q&A
+**Question:** Why would someone who lives forever step into a short, risky life?
 
-**Question:** Why would an immortal being want to live a mortal life?
+**Answer:** One story: they went numb. Feeling love, loss, and an ending wakes empathy again. Optional. Not a fact.
 
-**Answer:** One idea: feeling death, love, and risk “resets” a mind that grew numb—empathy exercise for someone who lives forever.
+This is what happens **after** the hard chapter. [AS02](../assumptions/AS02-artificial-scarcity.md) is the different guess that hardship **during** life was designed on purpose.
 
-**Sources:** (optional teleology; no required axiom)
+[Influences](../INFLUENCES.md#r09--soul-resuscitation)
 
-**Former law:** **L06**; former duplicate rule **R08** (rejuvenation checks) folded here. **Equations:** [FORMULAS.md § R09](../FORMULAS.md#r09--cognitive-entropy-and-empathy)
+## Advanced
 
-## Reading
+$$H_{\text{after}} = H_{\text{before}} - \Delta H$$
 
-Optional—not the same as [AS03](../assumptions/AS03-artificial-scarcity.md) (meaning **during** the session). R09 is rejuvenation **after** vulnerability in-sim.
+**Read it as:** $H$ is a metaphor for numbness (a mind gone stale). A vulnerable life can lower it by $\Delta H$. Empathy gained is pictured as growing with how much risk the person actually felt, summed over the session.
 
-## Checks
-
-- Use genuine vulnerability, not scripted comfort only.
-- Narrate rejuvenation / empathy change at base layer if your model includes it.
-- List **R09** only when you adopt this rejuvenation story.
-
-## Influences
-
-**Tags:** Boltzmann · Shannon (entropy metaphor) · Becker · Campbell (mythic parallel)  
-
-Prior-art map: [INFLUENCES.md § R09](../INFLUENCES.md#r09--soul-resuscitation)
+[FORMULAS.md](../FORMULAS.md#r09--cognitive-entropy-and-empathy)

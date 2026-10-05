@@ -1,6 +1,6 @@
 # Features (simple)
 
-**Features** are optional mechanics for “this universe runs inside another.” Turn them on in YAML only when your model needs them (`references.features.simulation`).
+**Features** are optional mechanics for “this universe runs inside another.” Adopt **FS01–FS03** only when your model needs them.
 
 | ID | In plain English | More |
 |----|------------------|------|

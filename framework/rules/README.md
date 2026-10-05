@@ -1,8 +1,8 @@
-# Rules (`R01`–`R04`, `R06`–`R09`)
+# Rules
 
-All former **laws** are merged here—one layer for “how to build and run a universe.” Axioms (**A01**–**A04**) stay foundational; rules derive or extend them.
+How to build a world that doesn’t contradict the [axioms](../axioms/README.md). **R01–R04** almost always. The rest only when the story needs them.
 
-Optional: [assumptions/](../assumptions/README.md), [features/simulation/](../features/simulation/README.md), [measures/](../measures/README.md). See [index.md](index.md).
+Full list: [index.md](index.md). Plain list: [simple/rules.md](../simple/rules.md).
 
 | ID | File |
 |----|------|
@@ -14,3 +14,7 @@ Optional: [assumptions/](../assumptions/README.md), [features/simulation/](../fe
 | R07 | [R07-evaluation-outcome.md](R07-evaluation-outcome.md) |
 | R08 | [R08-equivalence-of-realities.md](R08-equivalence-of-realities.md) |
 | R09 | [R09-soul-resuscitation.md](R09-soul-resuscitation.md) |
+| R10 | [R10-dual-time.md](R10-dual-time.md) |
+| R11 | [R11-constrained-infinity.md](R11-constrained-infinity.md) |
+| R12 | [R12-universe-prime.md](R12-universe-prime.md) |
+| R13 | [R13-cosmological-boundaries.md](R13-cosmological-boundaries.md) |

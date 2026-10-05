@@ -1,16 +1,13 @@
-# R01 — Consistency
-
-## Q&A
+# R01 — No nonsense worlds
 
 **Question:** Can I invent any universe I want?
 
-**Answer:** Only if its rules don’t contradict themselves. Nonsense worlds don’t count as valid universes in this framework.
+**Answer:** Only if it doesn’t contradict itself. From [A01](../axioms/A01-non-contradiction.md). If two universes touch, their shared border still has to make sense ([R06](R06-overlap-blending.md)).
 
-**Sources:** A01
+## Advanced
 
-A universe spec may be used only if it is logically consistent (no internal contradiction).
+Same test as [A01](../axioms/A01-non-contradiction.md):
 
-**Checks**
+$$\text{Exists}(S) \iff (S \nvdash \bot)$$
 
-- Axioms and declared laws must not contradict each other.
-- Boundary data must satisfy shared constraints (see R06 when overlaps exist).
+If your spec can prove both “this” and “not this,” it is not a universe in these notes. On an overlap, both rulebooks must still pass that test together.

@@ -1,18 +1,15 @@
-# R07 — Evaluation outcome
+# R07 — How you’d grade a life
 
-## Q&A
+**Question:** If life were a test, how would you score it?
 
-**Question:** How do you “score” a whole life?
+**Answer:** Add up the moral choices that mattered, with weights you set **before** the story starts. Compare to a pass line. Pass, or go again. This is a clipboard, not a sermon. It only applies if you are exploring [Q01](../questions/Q01-existential-purpose.md).
 
-**Answer:** Add up weighted moral choices from birth to death; compare to a pass line you defined upfront—then pass or recalibrate.
+## Advanced
 
-**Sources:** Q01
+$$\text{Score} = \int_{t_{\text{birth}}}^{t_{\text{death}}} \text{Choice}(t) \cdot w(t)\, dt$$
 
-After session end, compute a lifetime evaluation score from ethical choices and weights; compare to your threshold.
+**Read it as:** add up every morally relevant choice from birth to death. $w(t)$ is how much that moment counts (a crisis can weigh more than a Tuesday). Compare the total to a pass line $\Theta$ you fixed **before** the run. At or above $\Theta$: passed. Below: try again.
 
-**Checks**
+The $\int$ sign means “sum over the whole life,” the continuous version of adding a column of numbers.
 
-- Define choice metric, weights, and pass threshold before the run.
-- Outcome: **Passed** or **Recalibrated** per your protocol.
-
-**Equations:** [FORMULAS.md § Q01](../FORMULAS.md#q01--ethical-integral-and-threshold)
+[FORMULAS.md](../FORMULAS.md#q01--ethical-integral-and-threshold)

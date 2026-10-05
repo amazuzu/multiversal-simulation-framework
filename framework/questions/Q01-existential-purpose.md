@@ -1,24 +1,19 @@
-# Q01 — Existential purpose (open question)
+# Q01 — Is life a test?
 
-**Status:** *Open question—not a law.* We do **not** know whether life is an assessment for responsibility or judgment after death. Former **L05**.
+We **don’t know**. This is a question, not a rule.
 
-## Q&A
+**Question:** Could a life be graded for something after it ends?
 
-**Question:** Could life be a test for something bigger after we die?
+**Answer:** One story people tell: choices add up; trust is earned for a responsibility you can’t see yet. Fun to explore. Dangerous to preach.
 
-**Answer:** We don’t know. One story: choices are scored over a lifetime—vetting trust for serious responsibility. Explore that without treating it as fact.
+Blind memories: [AS01](../assumptions/AS01-session-amnesia.md). A scoreboard, if you want one: [R07](../rules/R07-evaluation-outcome.md).
 
-Links optional [AS02](../assumptions/AS02-session-amnesia.md) (blind session) and implementation [R07](../rules/R07-evaluation-outcome.md).
+[Influences](../INFLUENCES.md#q01--existential-purpose--evaluation)
 
-**Equations:** [FORMULAS.md § Q01](../FORMULAS.md#q01--ethical-integral-and-threshold)
+## Advanced
 
-## If you model this question
+$$\text{Score} = \int_{\text{birth}}^{\text{death}} \text{Choice}(t)\, w(t)\, dt$$
 
-- Lifetime score from weighted ethical choices vs a pass threshold you define.
-- **Passed** / **Recalibrated** are protocol labels (e.g. cleared for responsibility vs not yet).
+**Read it as:** a lifetime total. $\int$ is “add it all up.” $w(t)$ is the importance of that hour. If you want a pass/fail, compare the score to a line you chose in advance. This does **not** say the test is real. It only shows how the story would keep score.
 
-## Influences
-
-**Tags:** Aristotle · Kant · Kohlberg · judgment narratives  
-
-Prior-art map: [INFLUENCES.md § Q01](../INFLUENCES.md#q01--existential-purpose--evaluation)
+[FORMULAS.md](../FORMULAS.md#q01--ethical-integral-and-threshold)

@@ -18,7 +18,7 @@ Quick lookup for symbols. Full formula walkthroughs: **[FORMULAS.md](FORMULAS.md
 | $\setminus$ | set minus | Remove elements of second set from first. |
 | $\cap$ | intersection | Objects obeying both structures (R06). |
 | $\emptyset$ | empty set | No observer coupling (FS03). |
-| $\perp$ | independent | No statistical influence (AS02). |
+| $\perp$ | independent | No statistical influence (AS01). |
 
 ## Structures and reality
 
@@ -47,7 +47,7 @@ Quick lookup for symbols. Full formula walkthroughs: **[FORMULAS.md](FORMULAS.md
 | $\text{PerceivedExperience}(n)$ | Phenomenology placeholder for $n$. |
 | $\text{LocalPhysics}(S_i)$ | Dynamics and laws **inside** $S_i$. |
 
-## Memory sets (AS02)
+## Memory sets (AS01)
 
 | Symbol | Meaning |
 |--------|---------|
@@ -98,12 +98,15 @@ Quick lookup for symbols. Full formula walkthroughs: **[FORMULAS.md](FORMULAS.md
 | Constant | Typical use |
 |----------|-------------|
 | $\Phi_{critical}$ | Minimum $\Phi$ for subject status (A03). |
-| $T_{max}$ | Maximum lifespan $\Delta t_{lifespan}$ (AS03). |
-| $t_{birth}$, $t_{death}$ | Session window (AS02, Q01). |
+| $T_{max}$ | Maximum lifespan $\Delta t_{lifespan}$ (AS02). |
+| $t_{birth}$, $t_{death}$ | Session window (AS01, Q01). |
 | $\Theta_{threshold}$ | Pass/fail on $\text{Evaluate}$ (Q01). |
 | $\alpha$ or $\alpha(x,t)$ | Overlap law mix (R06). |
+| $G$, $P$ | Gödel integer / optional universe-prime label (R12). |
+| $I_{\max}$ | Holographic-style information cap (R13). |
+| $\Delta T$ | Proper-time / lifespan along worldline $\mathcal{C}$ (R10). |
 
-See [universe.schema.yaml](universe.schema.yaml) and [examples/earth-session.yaml](examples/earth-session.yaml).
+Define chosen values in your universe description when you model a concrete instance.
 
 ## Time and probability
 

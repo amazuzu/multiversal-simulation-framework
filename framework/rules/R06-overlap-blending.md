@@ -1,25 +1,21 @@
-# R06 — Multiversal intersection / overlap blending
+# R06 — Where two worlds touch
 
-## Q&A
+**Question:** Can two universes overlap?
 
-**Question:** Can two different universes overlap—and what happens on the border?
+**Answer:** Yes, if both rulebooks can be true in the same place. On the border, **mix** them. Don’t erase one side because it’s inconvenient.
 
-**Answer:** Yes, if both rule sets can hold in the same place. There, blend their dynamics; don’t pretend only one side exists.
+**Picture:** Two game mods in one map. Both stay on, or the merge crashes.
 
-Parallel structures need not be disjoint. Shared variables or boundaries create an overlap where both rule sets hold and local physics may mix with a weight you document.
+Cite this only when your story has a real overlap. Different size-tiers ([R11](R11-constrained-infinity.md)) can still meet.
 
-**Sources:** R01
+[Influences](../INFLUENCES.md#r06--multiversal-intersection)
 
-**Former law:** **L08** (same concept—merged here). **Equations:** [FORMULAS.md § R06](../FORMULAS.md#r06--overlapping-universes)
+## Advanced
 
-## Checks
+$$S_A \cap S_B = \Omega \neq \emptyset$$
 
-- Overlap only when joint rule satisfaction is possible.
-- Document blend weight and shared variables; anomalies OK if still consistent.
-- List **R06** only when `multiverse.overlaps` is non-empty.
+$$L_{\text{local}}(x) = \alpha\, L_A(x) + (1-\alpha)\, L_B(x), \quad \alpha \in [0,1]$$
 
-## Influences
+**Read it as:** the shared region $\Omega$ is not empty. At a point $x$ there, the local law is a mix. $\alpha = 1$ means pure world A. $\alpha = 0$ means pure world B. Anything between is a blend. Both rulebooks must still be satisfiable at $x$.
 
-**Tags:** Everett · Tegmark · Randall & Sundrum · Lewis (contrast)  
-
-Prior-art map: [INFLUENCES.md § R06](../INFLUENCES.md#r06--multiversal-intersection)
+[FORMULAS.md](../FORMULAS.md#r06--overlapping-universes)

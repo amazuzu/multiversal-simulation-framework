@@ -1,22 +1,28 @@
-# A02 — Mathematical monism
+# A02 — One kind of stuff
 
-## Q&A
+**Question:** Are mind and matter two different substances?
 
-**Question:** Is the world made of “stuff” and “mind” as two different things?
+**Answer:** Not here. Rocks, thoughts, and light are **patterns** in one mathematical landscape. “Soul stuff” in a second drawer isn’t required.
 
-**Answer:** No. Here, everything—including matter and consciousness—is patterns of information inside one mathematical landscape.
+**Picture:** A novel isn’t ink plus a ghost. It’s one story, told in sentences.
 
-There is no dualism between the “material” and the “spiritual.” Reality consists entirely of self-contained mathematical relationships and informational structures.
+[Influences](../INFLUENCES.md#a02--mathematical-monism)
 
-**Equations:** [FORMULAS.md § A02](../FORMULAS.md#a02--reality-as-the-set-of-consistent-structures)
+## Advanced
 
-## Implications
+$$\mathcal{M} = \{ S_i \mid \text{Consistent}(S_i) \}$$
 
-- “Physical” and “mental” are modes of information, not separate substances.
-- Any universe definition should be expressible as structure + dynamics on information.
+$$\text{Matter} \cup \text{Spirit} \subseteq \text{Information}(\mathcal{M})$$
 
-## Influences
+**Read it as:** reality is the pile of every world whose rules fit. Rocks and thoughts are both *inside* that pile, as information—not two kinds of stuff.
 
-**Tags:** Tegmark · Wheeler · Fredkin · Zuse · Shannon · Landauer · Spinoza  
+| Symbol | Means |
+|--------|--------|
+| $\mathcal{M}$ | The whole multiverse. |
+| $S_i$ | World number $i$. |
+| $\{ \ldots \mid \ldots \}$ | “The set of things that satisfy …” |
+| $\cup$ | “And also” (matter together with mind). |
+| $\subseteq$ | “Is part of.” |
+| $\text{Information}(\mathcal{M})$ | The patterns those worlds are made of. |
 
-Prior-art map: [INFLUENCES.md § A02](../INFLUENCES.md#a02--mathematical-monism)
+[FORMULAS.md](../FORMULAS.md#a02--reality-as-the-set-of-consistent-structures)

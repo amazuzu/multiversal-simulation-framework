@@ -1,22 +1,32 @@
-# A03 — Self-reference (consciousness)
+# A03 — The loop called “I”
 
-## Q&A
+**Question:** What is consciousness, without magic?
 
-**Question:** What is consciousness, in simple terms?
+**Answer:** A system that keeps a model of **itself** and updates using that model. “I notice I’m thinking.” Discrete steps or a smooth field—same idea. You pick how tight the loop must be before you call it a someone.
 
-**Answer:** A system that notices itself—it updates its state using an internal model of “me,” not magic in a separate soul-substance.
+**Picture:** A camera pointed at its own screen. Weird, but not a second kind of matter.
 
-Subjective awareness is the property of a structure that encodes a closed feedback loop: it observes and models its own state, with enough integration to count as a subject (you set the threshold).
+[Influences](../INFLUENCES.md#a03--self-reference--consciousness)
 
-**Equations:** [FORMULAS.md § A03](../FORMULAS.md#a03--consciousness-as-self-modeling-loop)
+## Advanced
 
-## Implications
+$$f(t+1) = g\big(f(t),\, \mathbf{M}(f(t))\big)$$
 
-- Consciousness is structural: self-model + update rule, not an extra ontological kind.
-- Below your chosen awareness threshold, treat as non-subject unless the structure changes.
+**Read it as:** tomorrow’s state depends on today’s state **and** on the system’s own picture of itself.
 
-## Influences
+| Symbol | Means |
+|--------|--------|
+| $f(t)$ | What the system is like at step $t$. |
+| $\mathbf{M}(f)$ | Its inner model of “me.” |
+| $g$ | The update rule. |
+| $t+1$ | The next tick. |
 
-**Tags:** Descartes · Hofstadter · Tononi & Koch · Rosen · Maturana & Varela  
+How tight the loop must be before you call it a someone:
 
-Prior-art map: [INFLUENCES.md § A03](../INFLUENCES.md#a03--self-reference--consciousness)
+$$\Phi(S) = \mathbf{I}\big(S ; \mathbf{M}(S)\big) > \Phi_{\text{critical}}$$
+
+$\Phi$ is “how much the whole and the self-model constrain each other.” $\Phi_{\text{critical}}$ is a line **you** draw. Below it, clever output is not yet a person.
+
+A smooth version of the same loop (optional): change of state $\Psi$ depends on how sensitive the self-model is. Same idea, continuous time.
+
+[FORMULAS.md](../FORMULAS.md#a03--consciousness-as-self-modeling-loop)

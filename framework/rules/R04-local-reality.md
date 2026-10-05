@@ -1,15 +1,11 @@
-# R04 — Local reality
+# R04 — Don’t dismiss their world
 
-## Q&A
+**Question:** May I tell people in a sim that their feelings don’t count?
 
-**Question:** Should I tell simulated people their feelings don’t count?
+**Answer:** Not because they’re “only code.” Inside their world, joy and pain are real. From [A04](../axioms/A04-inherent-reality.md).
 
-**Answer:** Never for that reason alone. Inside their world, joy and pain are fully real to them.
+## Advanced
 
-**Sources:** A04
+$$\text{Reality}_{\text{local}}(n) = 1$$
 
-From the inside, lived experience is fully real; simulation labels do not discount it.
-
-**Checks**
-
-- Narrative and metrics must not treat in-world suffering or joy as “less real” based on metadata alone.
+**Read it as:** for every subject $n$, lived experience is full strength. A label like “simulation” is not allowed to multiply that by $0.5$.
